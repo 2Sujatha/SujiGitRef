@@ -1,0 +1,52 @@
+
+WHEN YOU ARE A MASTER / PROJECT MANAGER
+----------------------------------------
+
+
+1,AFTER OPENING GIT CHANGES DIRECTORY TO THE SET PROJECT.
+CD (paste the path of the project inclding project folder)
+Eg: cd C:\batch264\ord.demonic
+
+2, to enter usename--> 
+git config --global user.name "<username>"
+(Note: username is not login id.)
+eg: git config --global user.name "Arthus9046"
+
+3, to enter email--> 
+git config --global user.email "<Emailid>" 
+eg: git config --global user.email "princearthus9046@gmail.com"
+
+4, (to create local repository)
+git init
+
+5, add/connect to remote repositor:
+git remote add origin "<add the url>"
+eg: git remote add origin "https://github.com/Arthus9046/Zing1.git"
+note: if repository already exists you will get error: remote origin already exists.
+
+6, add changes for files to send into staging
+eg: git add.
+
+7, to send (files in staging) files in local repository
+eg: git commit -m "checking in got command line interface"
+
+8, to know the status wheather the files in staging area commited (shows in green) / not commited( shows in red)
+eg: git status
+
+9, To push into remote repository 
+git push origin <branch>
+eg: git push origin master
+
+-------------------------------------------------------------------------------------------
+
+AS AN EMPLOYEEE
+
+
+1,AFTER OPENING GIT CHANGES DIRECTORY TO THE SET PROJECT.
+CD (paste the path of the project inclding project folder)
+Eg: cd C:\batch264\ord.demonic
+
+2, clone the project
+eg: git clone "path of the repository"
+
+
